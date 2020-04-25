@@ -1,5 +1,7 @@
 from finch import Finch
 
+# This program uses the Finch to play some notes. The song is represented by a string composed of the letters A-G (upper or lower). Upper case letters represent long notes, and lower case letters represent short notes.
+
 #Here we start using the robot
 robot = Finch()
 
@@ -34,6 +36,7 @@ else:
 if frequency > 0:
     print("Playing note: ", note)
     #this is how we play the note on the robot
+    #the robot can play only one note at a time
     robot.buzzer(length, frequency)  # play the note!
 else:
     print("Please enter a valid note!")
