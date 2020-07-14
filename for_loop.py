@@ -11,3 +11,5 @@ for note in notes:
     #Question: What happens if I *remove* the indentation for the next line?
     robot.buzzer_with_delay(length, note)
 
+print("The last note was ", note)
+print("All notes played!")

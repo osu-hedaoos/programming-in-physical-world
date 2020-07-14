@@ -6,7 +6,7 @@ from finch import Finch
 robot = Finch()
 
 #Ask user for a note
-note = input("Enter a note in lowercase")
+note = input("Enter a note in lowercase: ")
 
 #if the note entered is uppercase, it will be long, else short
 if (note.isupper()):
