@@ -28,6 +28,6 @@ Clone this repo's files and rename `finch.dummy.py` to `finch.py`.
 
 ## Questions ? Problems?
 
-If you have any questions about the examples, ask in the class's Slack or Piazza. If you are not enrolled in the current class email me at hedaoos@oregonstate.edu 
+If you have any questions about the examples, ask in the class's Slack or Piazza. If you are not enrolled in a current term, email me at hedaoos@oregonstate.edu 
 
 If you found a bug or problems, [file an issue](https://github.com/osu-hedaoos/programming-in-physical-world/issues) or [send a pull request](https://github.com/osu-hedaoos/programming-in-physical-world/pulls) :)
