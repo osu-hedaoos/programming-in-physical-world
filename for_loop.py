@@ -8,7 +8,7 @@ length = 1.2 #let's use a default length of the note
 for note in notes:
     print("Note is", note)
        
-    #Question: What happens if I *remove* the indentation for the next line?
+    #QUESTION: What happens if I *remove* the indentation for the next line?
     robot.buzzer_with_delay(length, note)
 
 print("The last note was ", note)

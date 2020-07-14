@@ -15,7 +15,7 @@ while stop_playing is False:
 
     if stop_playing is True:
         robot.buzzer_with_delay(length, 670)
-        # Question: What happens if I *remove* the indentation for the next two lines?
+        # QUESTION: What happens if I *remove* the indentation for the next two lines?
         robot.buzzer_with_delay(length, 670)
         robot.buzzer_with_delay(length, 670)
 

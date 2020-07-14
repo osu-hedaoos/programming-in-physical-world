@@ -12,7 +12,7 @@ length = 1.2 #let's use a default length of the note
 while stop_playing is False:
     for note in notes:
         print("Note is", note)
-        #Question: What happens if I *remove* the indentation for the next line?
+        #QUESTION: What happens if I *remove* the indentation for the next line by one block?
         robot.buzzer_with_delay(length, note)
     #pause for a minute
     stop = input("Do you want to stop? Enter Y to stop playing. Enter anything else to continue playing")
