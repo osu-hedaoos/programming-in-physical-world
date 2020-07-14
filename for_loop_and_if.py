@@ -26,7 +26,8 @@ for note in notes:
         frequency = 659
     elif (current_note == 'f'):
         frequency = 698
-   
+    else: #Question: What happens if I de-indent this and the following lines?
+        print("can't play this frequency!")
     print("Frequency is", frequency)
     #Question: What happens if I *remove* the indentation for the next line?
     robot.buzzer_with_delay(length, frequency)
