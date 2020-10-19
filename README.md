@@ -23,8 +23,8 @@ Clone this repo's files and rename `finch.dummy.py` to `finch.py`.
 1. Understand how the code works by running it without any modifications.
 1. Step through the code step-by-step by using PyCharm debugger or such utility to understand the finer points.
 1. Change the code as described in the question comments. Look for "QUESTION" in the code. STOP and read the next step.
-1. Now *before* running the code again, think about how the code should behave.
-1. Run the code and see if your predictions are true.
+1. Now *before* running the code again, think about how the code should behave. Write down your assumptions.
+1. Run the code and see if your predictions came true.
 
 ## Questions ? Problems?
 
